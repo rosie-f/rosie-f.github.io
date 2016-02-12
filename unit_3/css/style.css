@@ -1,0 +1,30 @@
+body {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+#name {
+	color: #B26500;
+	font-family: Helvetica, sans-serif;
+	font-size: 28px;
+}
+
+h1 {
+	color: #B26500;
+	font-weight: bold;
+	font-family: "Century Gothic", sans-serif;
+	font-size: 48px;
+}
+
+p {
+	color: #B26500;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#slogan {
+	font-weight: italic;
+	color: #0073B2;
+	font-size: 32px;
+	font-family: "Century Gothic", sans-serif;
+}
