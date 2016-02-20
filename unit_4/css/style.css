@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	color: #F29191;
+	padding: 10px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	margin-bottom: 3em;
+}
+
+body {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	color: #F29191;
+	font-weight: bold;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 3px;
+	font-size: 2.25em;
+}
+
+
+footer {
+	padding: 10px;
+	font-size: 14px;
+	color: #666666;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.5em;
+	float: right;
+}
+
+p, br {
+	color: #666666;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color: inherit;
+}
+
+nav a {
+	color: inherit;
+	padding: 10px;
+	margin: 50px;
+	float: right;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+aside {
+	float: right;
+}
+
+a:visited {
+    text-decoration: none;
+    font-weight: 400;
+    color: inherit;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+aside img {
+	margin-top: 40px;
+}
+
+header img {
+	float: left;
+	padding: 20px;
+}
+
+#slogan {
+	font-weight: italic;
+	color: #B26500;
+	font-size: 1.5em;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1.5px;
+}
+
+#name {
+  font-family: 'Pacifico', cursive;
+  color: #F29191;
+  letter-spacing: 4px;
+  text-align: center;
+}
