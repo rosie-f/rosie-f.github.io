@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300);
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
 
 * {
 	padding: 0;
@@ -32,6 +31,17 @@ h1 {
 	font-size: 2.25em;
 }
 
+h2 {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #47789e;
+	font-size: 1.36em;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.1em;
+}
 
 footer {
 	font-size: 0.85em;
@@ -50,7 +60,7 @@ p, br {
 	font-size: 1em;
 	letter-spacing: 0.04em;
 	line-height: 1.4em;
-	font-weight: 300;
+	font-weight: 200;
 	padding: 0 2em;
 	margin-bottom: 0.55em;
 }
@@ -123,10 +133,10 @@ footer img {
 
 #slogan {
 	font-weight: italic;
-	color: #6FA3B6;
+	color: #47789e;
 	font-size: 1.36em;
-	font-family: 'Alegreya Sans SC', sans-serif;
-	letter-spacing: 0.108em;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 0.1em;
 	text-align: left;
 }
 
@@ -144,6 +154,42 @@ footer img {
 
 #logo {
 	display: block;
+}
+
+.tile {
+	width: 50%;
+	height: 0;
+	padding-bottom: 28%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	opacity: 0.5;
+	-webkit-transition: all 1s ease-in-out;   
+	-moz-transition: all 1s ease-in-out;   
+	-o-transition: all 1s ease-in-out;   
+	transition: all 1s ease-in-out;
+}
+
+.tile:hover {
+	opacity: 1;
+}
+
+.tile .inner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 95%;
+	height: 90%;
+	padding: 5px;
+	border: 5px solid;
+	border-color: #FFF;
+	background-color: pink;
+}
+
+.container {
+	overflow: auto;
 }
 
 @media only screen and (min-width: 981px) and (max-width: 1060px) {
